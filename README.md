@@ -22,6 +22,7 @@ SpellCheck [dns]: Dons, dens, dins, dons, duns, DNA
 SpellChecked in 0.244784 seconds.
 ```
 
+--
 **Installation**
 
 Add `rack-spell-check` to your `Gemfile`. If you use Rails, the spellchecker will
@@ -42,3 +43,13 @@ manually. One good way to do this is in your `config.ru` file.
 use Rack::SpellCheck
 run Sinatra::Application # Or whatever your application is called.
 ```
+
+--
+**More Information**
+
+Written by Matt Beale (matt.beale@madhatted.com)
+
+Inspired by:
+
+* https://gist.github.com/1944060
+* http://blog.atwam.com/blog/2012/02/25/spell-checking-should-be-part-of-your-view-tests
