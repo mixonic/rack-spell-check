@@ -45,7 +45,9 @@ run Sinatra::Application # Or whatever your application is called.
 ```
 
 --
-**More Information**
+**Additional Info**
+
+Rack::SpellCheck is licensed under the MIT License.
 
 Written by Matt Beale (matt.beale@madhatted.com)
 
