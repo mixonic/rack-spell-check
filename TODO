@@ -1,4 +1,2 @@
-Rack layer should handle plain strings/arrays for the body instead of only Rack::Response
-Railtie need to be built
-Nokogiri requirement needs to be added to gemspec
 Real tests
+How to set custom whitelists?
