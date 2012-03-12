@@ -1,7 +1,7 @@
 Rack::SpellCheck
 ----------------
 
-__WARNING: THIS GEM IS UNDER DEVELOPMENT AND NOT ACUTALLY STABLE/USABLE/RELEASED!!!__
+__WARNING: THIS GEM IS UNDER DEVELOPMENT AND NOT ACTUALLY STABLE/USABLE/RELEASED!!!__
 
 Spell check your HTML pages with Aspell, Nokogiri, and Rack. Your log files will
 give you misspelled words and possible corrections. For instance, this is a Rails
