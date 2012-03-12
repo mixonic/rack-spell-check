@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
 
   s.name              = 'rack-spell-check'
   s.version           = '0.0.1'
-  s.date              = '2012-03-01'
+  s.date              = '2012-03-11'
 
   s.summary     = "Rack::SpellCheck - Spell check your HTML pages with Aspell, Nokogiri, and Rack."
   s.description = "A Ruby Rack & Rails middleware using Aspell & Nokogiri to check for misspellings."
@@ -23,6 +23,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency('rack')
   s.add_dependency('raspell')
+  s.add_dependency('logger')
+  s.add_dependency('nokogiri')
 
   s.add_development_dependency('rake', "~> 0.9")
   s.add_development_dependency('rdoc', "~> 3.11")
@@ -30,7 +32,19 @@ Gem::Specification.new do |s|
   
   # = MANIFEST =
   s.files = %w[
-
+    Gemfile
+    LICENSE
+    README.md
+    Rakefile
+    TODO
+    lib/rack-spell-check.rb
+    lib/rack/spell_check/middleware.rb
+    lib/rack/spell_check/railtie.rb
+    lib/rack/spell_check/version.rb
+    rack-spell-check.gemspec
+    test/rack/spell_check/.middleware_test.rb.swp
+    test/rack/spell_check/middleware_test.rb
+    test/test_helper.rb
   ]
   # = MANIFEST =
 
